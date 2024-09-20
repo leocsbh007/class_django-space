@@ -28,11 +28,29 @@ git push -u origin master
 - Inclusão do 'DIRS': [os.path.join(BASE_DIR, 'templates')], para o caminho da pasta templates no settings do projeto
 - Criação do index.html e na view da aplicação chamamos a pagina criada atraves do metodo render()
 
-Comnados:
+Comandos:
 git add .
 git commit -m "feat: include template index.html and urls routes"
 git push -u origin master
 
 git add .
 git commit -m "fixing commits.txt file"
+git push -u origin master
+
+
+#############################################################################
+######              20/09/2024 - Terceiro Commit:             ###############
+#############################################################################
+
+- Alteração do caminho do arquivo index.html
+- Aletaração do codigo do index.html
+- Carregamento dos arquivos estaticos com o comando 'python manage.py collectstatic'
+- Inclusão de codigo Python no arquivo index.html
+- Inclusão do arquivo de imagem.html
+- Inclusão da propriedade 'name' no arquivo 'urls' do app galeria
+- Inclusão do codigo Python {% url 'index' %} e {% url 'imagen' %} para navegar entre as rotas
+
+Comandos: 
+git add .
+git commit -m "feat: python code into html file and add style to pages"
 git push -u origin master
