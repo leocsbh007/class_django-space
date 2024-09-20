@@ -1,0 +1,15 @@
+20/09/2024 - Primeiro Commit:
+
+- Criação do Projeto
+- Alteração da Time Zone
+- Proteção da SECRET_KEY usando dotenv
+- Criação do Repositorio no Git
+
+Comandos: 
+echo "# class_django-space" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/leocsbh007/class_django-space.git
+git push -u origin master
