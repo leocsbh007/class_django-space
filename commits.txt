@@ -13,3 +13,12 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/leocsbh007/class_django-space.git
 git push -u origin master
+
+20/09/2024 - Segundo Commit:
+
+- Criação do APP galeria para carregar as imagens
+- Registro do app na INSTALLED_APPS
+- Criação da urls.py no app galeria para que ele gerencie suas rotas
+- Criação da pasta de Templates
+- Inclusão do 'DIRS': [os.path.join(BASE_DIR, 'templates')], para o caminho da pasta templates no settings do projeto
+- Criação do index.html e na view da aplicação chamamos a pagina criada atraves do metodo render()
