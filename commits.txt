@@ -73,3 +73,17 @@ git status
 git add .
 git commit -m 'feat: final version with tempaltes html'
 git push -u origin master
+
+
+#############################################################################
+######              23/09/2024 - Quinto Commit:               ###############
+#############################################################################
+
+- Nova versão do Curso com ORM
+- Busca dos dados das imagens usando um dicionario
+
+Comandos:
+git status
+git add .
+git commit -m 'feat: New course ORM Djando Alura'
+git push -u origin master
