@@ -54,3 +54,22 @@ Comandos:
 git add .
 git commit -m "feat: python code into html file and add style to pages"
 git push -u origin master
+
+
+#############################################################################
+######              23/09/2024 - Quarto Commit:               ###############
+#############################################################################
+
+- Verificação e houve alguma Alteração no Repositorio remoto
+- Criação do Arquivio bse.html dentro do app galeria
+- Usar a convença 'DRY' para não existir codigo duplicado
+- Inclusão do codigo Django {% extends 'caminho do arquivo base' %} {% load static %} {% block content %} {% end block %}
+- Fechamento da primeira parte do Treinamento com o uso de Templates
+
+
+
+Comandos:
+git status
+git add .
+git commit -m 'feat: final version with tempaltes html'
+git push -u origin master
