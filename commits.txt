@@ -87,3 +87,18 @@ git status
 git add .
 git commit -m 'feat: New course ORM Djando Alura'
 git push -u origin master
+
+
+#############################################################################
+######              24/09/2024 - Sexto Commit:                ###############
+#############################################################################
+
+- Criação do modelo de entrada para a minha imagem
+- Criação da migração dos dados
+- Habilitando do sqlite viwer para ver os bancos ativos
+
+Comandos
+git status
+git add .
+git commit -m 'feat: Create fotografia Class e instance bank sqlite'
+git push -u origin master
