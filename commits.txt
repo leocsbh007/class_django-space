@@ -140,3 +140,16 @@ Comandos
 git add .
 git commit - m 'feat: new date of database and new route via id database'
 git push -u origin master
+
+
+#############################################################################
+######              27/09/2024 - Nono Commit:                 ###############
+#############################################################################
+
+- Problema do acesso ao admin, o time-Zone do arquivo settings estava errado
+
+Comandos
+git add .
+git commit - m 'fix: Wont access admin, because Time-Zone in settings.py was incorrect'
+git push -u origin master
+
