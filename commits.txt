@@ -118,6 +118,25 @@ git push -u origin master
     >> exit()
 - Mudança do nome do app em settings do setup, para trazer todas as configurações do app galeria, caso seja feita alguma Mudança
 
+Comandos
 git add .
 git commit - m 'feat: include one object in the database and replace name app in the settings'
+git push -u origin master
+
+
+#############################################################################
+######              27/09/2024 - Oitavo Commit:               ###############
+#############################################################################
+
+- Busca do dado da foto no banco de dados
+- Alteração do codigo python no index.html
+- Exclusão da lista 'dados' da views do app galeria
+- Inclusão de mais um item no banco via shell do Django
+- Inclusão de uma imagem na pasta static do setup nas imagens da galeria
+- Alteração da rota de imagem incluindo o foto_id como parametro
+- No imagem.html pegando a referencia de foto_id e buscnado o dado referencia no banco
+
+Comandos
+git add .
+git commit - m 'feat: new date of database and new route via id database'
 git push -u origin master
