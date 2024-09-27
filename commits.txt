@@ -102,3 +102,22 @@ git status
 git add .
 git commit -m 'feat: Create fotografia Class e instance bank sqlite'
 git push -u origin master
+
+#############################################################################
+######              27/09/2024 - Setimo Commit:               ###############
+#############################################################################
+
+- Criação de um Objeto no Banco, via sheel do django:
+    Comandos:
+    py manage.py sheel
+    >> from galeria.models import Fotografia
+    >> foto = Fotografia(nome="Nebulosa de Carina", legenda="webbtelescope.org / NASA / James Webb", foto="carina-nebula.png")
+    >> foto.save()
+    >> Fotografia.objects.all()
+    <QuerySet [<Fotografia: Fotografia [nome = Nebulosa de Carina]>]>
+    >> exit()
+- Mudança do nome do app em settings do setup, para trazer todas as configurações do app galeria, caso seja feita alguma Mudança
+
+git add .
+git commit - m 'feat: include one object in the database and replace name app in the settings'
+git push -u origin master
