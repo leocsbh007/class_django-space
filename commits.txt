@@ -172,3 +172,20 @@ Comandos
 git add .
 git commit - m 'feat: new dates into database and filter dates on admin'
 git push -u origin master
+
+
+#############################################################################
+######              30/09/2024 - Decimo-Primeiro Commit:      ###############
+#############################################################################
+
+- Criação das variaveis de ambiente para as fotos
+- Altera da url do setup - metodo-> static
+- Altera o models o tipo de campo da foto - Precisa do Pillow instalado
+- instalação do pacote Pillow e atualização do requeriments.txt (pip freeze > requeriments.txt)
+- atualização do caminho de todas as imagens e Inclusão de uma imagem padrão para caso não exista nenhuma imag
+- atualização dos arquivos de index.html e imagem.html 
+
+Comandos
+git add .
+git commit -m 'feat: updade url imagens and update route'
+git push -u origin master
