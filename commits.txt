@@ -189,3 +189,11 @@ Comandos
 git add .
 git commit -m 'feat: updade url imagens and update route'
 git push -u origin master
+
+
+#############################################################################
+######              30/09/2024 - Decimo-Segundo Commit:       ###############
+#############################################################################
+
+- Adicionando logica para o motor de busca da pagina
+- Alteração da cor da input de busca, inclusão de form e button subimit no motor de busca
