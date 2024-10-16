@@ -211,3 +211,23 @@ git status
 git add .
 git commit -m 'feat: Create new usuarios app'
 git push -u origin master
+
+
+#############################################################################
+######              16/10/2024 - Decimo-Quarto Commit:        ###############
+#############################################################################
+
+- Criação das rotas para login e cadastro
+- Criação dos arquivos de template de login e cadastro
+- Alteração dos inputs da tela de login, por codigo python 
+- Criação de uma classe python que herda de forms
+- Alteração do arquivo de login.html pelos campos do forms.py
+- Alteração do arquivo de cadastro.html pelos campos do forms.py
+- Foram criados duas classes para controlar o formulario de login e cadastro
+
+
+Comandos
+git status
+git add .
+git commit -m 'feat: Form Class to controler login and cadastro'
+git push -u origin master
