@@ -197,3 +197,17 @@ git push -u origin master
 
 - Adicionando logica para o motor de busca da pagina
 - Alteração da cor da input de busca, inclusão de form e button subimit no motor de busca
+
+
+#############################################################################
+######              16/10/2024 - Decimo-Terceiro Commit:      ###############
+#############################################################################
+
+- Criação de um novo app 'usuarios'
+- Será responsavel pelos usuarios do sistema
+
+Comandos
+git status
+git add .
+git commit -m 'feat: Create new usuarios app'
+git push -u origin master
