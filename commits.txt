@@ -245,3 +245,18 @@ git status
 git add .
 git commit -m 'feat: Create user into cadastro'
 git push -u origin master
+
+
+#############################################################################
+######              01/11/2024 - Decimo-Sexto Commit:         ###############
+#############################################################################
+
+- Validação de login na view login
+- Autenticação de usuario, rotina de login
+- Direcionameto das rotas
+
+Comandos
+git status
+git add .
+git commit -m 'feat: Auth login and routes succes and failure'
+git push -u origin master
