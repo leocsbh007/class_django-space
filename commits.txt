@@ -231,3 +231,17 @@ git status
 git add .
 git commit -m 'feat: Form Class to controler login and cadastro'
 git push -u origin master
+
+
+#############################################################################
+######              01/11/2024 - Decimo-Quinto Commit:        ###############
+#############################################################################
+
+- Validação de senha na view cadastro
+- Criação de usuario, salvando dentro do Banco
+
+Comandos
+git status
+git add .
+git commit -m 'feat: Create user into cadastro'
+git push -u origin master
