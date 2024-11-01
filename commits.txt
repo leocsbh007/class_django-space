@@ -260,3 +260,18 @@ git status
 git add .
 git commit -m 'feat: Auth login and routes succes and failure'
 git push -u origin master
+
+
+#############################################################################
+######              01/11/2024 - Decimo-Setimo Commit:        ###############
+#############################################################################
+
+- Criação de Alertas
+- Inclusão dos alertas nos Templates
+- Nova viwe logout
+
+Comandos
+git status
+git add .
+git commit -m 'feat: Create new alerts, new view logout and update templates'
+git push -u origin master
